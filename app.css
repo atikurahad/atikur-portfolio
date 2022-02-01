@@ -4,9 +4,11 @@
   /* background: gray; */
 }
 .img {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   align-self: center;
-  height: 156px;
-  width: 80px;
+  height: 12rem;
+  width: 15rem;
 }
 .fab-icon {
   font-size: 2.5rem;
@@ -20,15 +22,60 @@
 }
 .first-section {
   background-color: black;
-  height: fit-content;
+  border: 3px solid yellow;
+  border-radius: 12px;
+  /* height: -webkit-fill-available; */
+  margin-left: 13rem;
+  margin-top: 1.5rem;
+  padding: 2rem;
+  position: fixed;
 }
 .ancor-tag {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
 }
 .ancor-tag a {
-  color: gold;
+  color: rgb(129, 115, 35);
 
   text-decoration: none;
+}
+/* .btn-group {
+  background: rgb(39, 39, 65);
+  color: red;
+  height: 15px;
+  width: 50px;
+  padding: 8px;
+} */
+.btn-cv {
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.cv-head {
+  font-family: "Times New Roman", Times, serif;
+  color: gold;
+  text-align: center;
+}
+.ancor-tag a :hover {
+  background: whitesmoke;
+}
+footer {
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: ivory;
+  margin-top: 2rem;
+}
+.exp-sec {
+  margin: 1.5rem;
+  border-right: 1px solid gray;
+}
+.fa-icon {
+  /* color: #61dafb; */
+  background-color: rgba(0, 0, 0, 0.733);
+  font-size: 3rem;
+  border: 1px solid black;
 }
